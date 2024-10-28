@@ -48,7 +48,7 @@ export default function Home() {
         <motion.div
           animate={{ rotate: 360 }}
           // style={{ rotate: 0, x: "calc(50vh - 100px)" }}
-          className="profile flex items-center justify-center w-[250px] h-[250px] md:w-[350px] md:h-[350px] rounded-full"
+          className="profile flex items-center justify-center w-[250px] h-[250px] py-5 md:py-0 md:w-[350px] md:h-[350px] rounded-full"
         >
           <div className="pic">
             <Image
